@@ -23,3 +23,9 @@ sample Screenshots: A sample screen shots are provided in the files
 ✍ Author LAKSHMI NARAYANA REDDY
 
 📌 Features / Contributions Any contributions you make are greatly appreciated Would be glad to hear about new features to add in t
+
+
+
+https://github.com/iamtheray71/CodeClause_Timer_Stopwatch/assets/121150577/f5bacdb4-657a-4025-8cb0-dc5a6082c112
+
+
