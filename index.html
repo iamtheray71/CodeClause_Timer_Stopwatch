@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Timer and Stopwatch</h1>
+
+  <div class="timer">
+    <h2>Timer</h2>
+    <div>
+      <input type="number" id="timerInput" placeholder="Enter time in seconds">
+      <button id="startTimerBtn" onclick="startTimer()">Start</button>
+    </div>
+    <div id="timerDisplay" class="time-display">00:00:00</div>
+    <button id="stopTimerBtn" onclick="stopTimer()">Stop</button>
+    <button id="resetTimerBtn" onclick="resetTimer()">Reset</button>
+  </div>
+
+  <div class="stopwatch">
+    <h2>Stopwatch</h2>
+    <div>
+      <button id="startStopwatchBtn" onclick="startStopwatch()">Start</button>
+    </div>
+    <div id="stopwatchDisplay" class="time-display">00:00:00</div>
+    <button id="stopStopwatchBtn" onclick="stopStopwatch()">Stop</button>
+    <button id="resetStopwatchBtn" onclick="resetStopwatch()">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<center>
+	<div id="contain">
+		<div id="footer">
+		  <footer>&copy; Made by Lakshmi Narayana Reddy K</footer>
+	</div>
+	</div>
+ </center>
+</html>

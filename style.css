@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('TIMER.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  h1 {
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .timer,
+  .stopwatch {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .timer h2,
+  .stopwatch h2 {
+    color: ORANGE;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .time-display {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #f9f9f9, #e5e5e5);
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4c9cd9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #357ac5;
+  }
+  footer{
+    color:black;
+    font-weight: 50;
+    font-style: italic;
+    font-size: xx-large;
+  }
